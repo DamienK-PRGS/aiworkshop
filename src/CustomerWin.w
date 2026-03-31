@@ -245,6 +245,7 @@ DO:
       ELSE
         MESSAGE cErrorMessage VIEW-AS ALERT-BOX.
     END.
+  END.
   ELSE
     MESSAGE "Customer not found" VIEW-AS ALERT-BOX.
   END.
